@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+header{
+    padding: 25px 270px;
+    background: #ECECEC;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    }
+header a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.7s;
+}
+header>a{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    text-decoration: none;
+    align-items: center;
+    color: #024C90;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header>a img{
+    width: 100%;
+}
+header nav{
+    justify-self: center;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul a:hover{
+    color: black;
+}
+header>ul{
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    list-style-type: none;
+}
+header ul li:nth-child(1){
+    margin-right: 70px;
+ }
+header>ul li:nth-child(2){
+   justify-self: center;
+}
+header ul li:nth-child(3){
+    margin-left: 70px;
+}
+header>ul a:hover{
+    color: blue;
+}
